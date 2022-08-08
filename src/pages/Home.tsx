@@ -81,7 +81,7 @@ const Home: React.FC = () => {
 
       <Divider />
       <Main
-        title="Farrel Dwireswara Salim's Portofolio"
+        title="Farrel Dwireswara Salim's Portfolio"
         description="Year 2 National University of Singapore undergraduate, 
               studying Computer Science along with a second major in Mathematics"
       />

@@ -27,7 +27,7 @@ const Header: React.FC<Clickable> = ({ onClick }) => {
         alignItems="center"
       >
         <Text color="whitesmoke" marginLeft="10px">
-          Farrel Salim's Portofolio
+          Farrel Salim's Portfolio
         </Text>
       </Box>
       <Box

@@ -96,13 +96,10 @@ const Modules: React.FC = () => {
                 MA1521, Calculus for Computing (A+)
               </SubsectionList>
               <SubsectionList>
-                GEC1030, Metropolis: The City in World History (S, originally
-                B+)
+                GEC1030, Metropolis: The City in World History (S)
               </SubsectionList>
-              <SubsectionList>
-                IS1103, Ethics in Computing (S, originally B)
-              </SubsectionList>
-              <SubsectionList>CFG1002, Career Catalyst (S)</SubsectionList>
+              <SubsectionList>IS1103, Ethics in Computing (S)</SubsectionList>
+              <SubsectionList>CFG1002, Career Catalyst (CS)</SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>
@@ -128,10 +125,10 @@ const Modules: React.FC = () => {
                 GESS1005, South Asia in Singapore (A)
               </SubsectionList>
               <SubsectionList>
-                GEA1000, Quantitative Reasoning (S, originally B+)
+                GEA1000, Quantitative Reasoning (S)
               </SubsectionList>
               <SubsectionList>
-                ES1103, English for Academic Purposes (S, originally B+)
+                ES1103, English for Academic Purposes (S)
               </SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
@@ -152,6 +149,9 @@ const Modules: React.FC = () => {
               <SubsectionList>CS2103T, Software Engineering</SubsectionList>
               <SubsectionList>MA3205, Set Theory</SubsectionList>
               <SubsectionList>ST2131, Probability</SubsectionList>
+              <SubsectionList>
+                CP2106, Independent Software Development project (CS)
+              </SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>

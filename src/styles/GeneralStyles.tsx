@@ -62,7 +62,7 @@ export const SubsectionTitle: React.FC<CustomContainerProps> = ({
   return (
     <Text
       fontSize="2xl"
-      fontFamily="cursive"
+      fontFamily="heading"
       color="#13274F"
     >{`- ${children}`}</Text>
   );

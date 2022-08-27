@@ -28,7 +28,9 @@ const CustomDrawerHeader: React.FC<CustomHeaderProps> = ({
           borderRadius="full"
           style={{ alignItems: "center" }}
         />
-        <Text textAlign="center">{description}</Text>
+        <Text textAlign="center" marginTop="10px">
+          {description}
+        </Text>
       </Center>
     </DrawerHeader>
   );

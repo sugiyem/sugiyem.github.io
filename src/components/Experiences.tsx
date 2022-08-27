@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, UnorderedList } from "@chakra-ui/react";
+import { UnorderedList } from "@chakra-ui/react";
 import {
   SectionContainer,
   SectionTitle,
@@ -20,15 +20,12 @@ const Experiences = React.forwardRef<null | HTMLDivElement>((props, ref) => {
             Teaching Assistant at National University of Singapore
           </SubsectionTitle>
           <SubsectionDesc>
-            Conduct tutorial and grade students' assignment for some modules
-            offered by NUS
+            Conduct weekly tutorial and mark students' assignment
           </SubsectionDesc>
           <SubsectionDate>August 2022 - Present</SubsectionDate>
           <UnorderedList>
             <SubsectionList>
-              {"Tutor for "}
-              <Link>CS1101S</Link>
-              {", Programming Methodology"}
+              Current Teaching: CS1101S (Programming Methodology)
             </SubsectionList>
           </UnorderedList>
         </SubsectionContainer>

@@ -14,6 +14,7 @@ const Main: React.FC<MainProps> = ({ title, description }) => (
       margin="15px"
       fontFamily="inherit"
       color="#00356B"
+      marginX="10px"
     >
       {title}
     </Heading>
@@ -22,6 +23,7 @@ const Main: React.FC<MainProps> = ({ title, description }) => (
       fontSize="20px"
       fontFamily="sans-serif"
       color="#5072A7"
+      marginX="10px"
     >
       {description}
     </Text>

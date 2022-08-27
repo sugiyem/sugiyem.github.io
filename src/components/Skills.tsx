@@ -1,5 +1,5 @@
 import React from "react";
-import { UnorderedList } from "@chakra-ui/react";
+import { Text, UnorderedList } from "@chakra-ui/react";
 import {
   SectionContainer,
   SectionTitle,
@@ -15,29 +15,15 @@ const Skills = React.forwardRef<null | HTMLDivElement>((props, ref) => {
         <SectionTitle>Skills</SectionTitle>
         <SubsectionContainer>
           <SubsectionTitle> Programming Languages</SubsectionTitle>
-          <UnorderedList>
-            <SubsectionList>Java</SubsectionList>
-            <SubsectionList>JavaScript</SubsectionList>
-            <SubsectionList>TypeScript</SubsectionList>
-            <SubsectionList>Python</SubsectionList>
-            <SubsectionList>C++</SubsectionList>
-          </UnorderedList>
+          <Text> Java, JavaScript, TypeScript, C++, Python, SQL</Text>
         </SubsectionContainer>
         <SubsectionContainer>
-          <SubsectionTitle> Frameworks </SubsectionTitle>
-          <UnorderedList>
-            <SubsectionList>ReactJS</SubsectionList>
-            <SubsectionList>ReactNative</SubsectionList>
-            <SubsectionList>Jest</SubsectionList>
-          </UnorderedList>
-        </SubsectionContainer>
-        <SubsectionContainer>
-          <SubsectionTitle> Softwares </SubsectionTitle>
-          <UnorderedList>
-            <SubsectionList> Git & GitHub</SubsectionList>
-            <SubsectionList> Firebase </SubsectionList>
-            <SubsectionList> Heroku </SubsectionList>
-          </UnorderedList>
+          <SubsectionTitle> Software & Frameworks </SubsectionTitle>
+          <Text>
+            {" "}
+            Git, GitHub, ReactJS, ReactNative, Jest, PostgreSQL, Firebase,
+            JavaFX, JUnit
+          </Text>
         </SubsectionContainer>
       </SectionContainer>
     </div>

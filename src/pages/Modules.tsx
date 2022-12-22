@@ -16,6 +16,7 @@ import {
   SectionTitle,
   SubsectionContainer,
   SubsectionDate,
+  SubsectionDesc,
   SubsectionList
 } from "../styles/GeneralStyles";
 
@@ -23,6 +24,7 @@ const Modules: React.FC = () => {
   const firstSemRef = React.useRef<null | HTMLDivElement>(null);
   const secondSemRef = React.useRef<null | HTMLDivElement>(null);
   const thirdSemRef = React.useRef<null | HTMLDivElement>(null);
+  const fourthSemRef = React.useRef<null | HTMLDivElement>(null);
 
   const [isDrawerOpen, setIsDrawerOpen] = React.useState<boolean>(false);
 
@@ -50,6 +52,9 @@ const Modules: React.FC = () => {
       </Button>
       <Button onClick={() => goToSelectedRef(thirdSemRef)}>
         Third Semester
+      </Button>
+      <Button onClick = {() => goToSelectedRef(fourthSemRef)}>
+        Fourth Semester
       </Button>
     </Stack>
   );
@@ -86,7 +91,8 @@ const Modules: React.FC = () => {
         <SectionContainer>
           <SectionTitle>First Semester Modules</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDate>August - Dec 2021</SubsectionDate>
+            <SubsectionDesc>SAP: 5.0/5.0</SubsectionDesc>
+            <SubsectionDate>August - December 2021</SubsectionDate>
             <UnorderedList>
               <SubsectionList>
                 CS1101S, Programming Methodology (A+)
@@ -109,6 +115,7 @@ const Modules: React.FC = () => {
         <SectionContainer>
           <SectionTitle>Second Semester Modules</SectionTitle>
           <SubsectionContainer>
+            <SubsectionDesc>SAP: 5.0/5.0</SubsectionDesc>
             <SubsectionDate>January - May 2022</SubsectionDate>
             <UnorderedList>
               <SubsectionList>
@@ -137,21 +144,39 @@ const Modules: React.FC = () => {
 
       <div ref={thirdSemRef}>
         <SectionContainer>
-          <SectionTitle>Third Semester Modules (Ongoing)</SectionTitle>
+          <SectionTitle>Third Semester Module</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDate>August 2022 - Present</SubsectionDate>
+            <SubsectionDesc>SAP: 4.9/5.0</SubsectionDesc>
+            <SubsectionDate>August - December 2022</SubsectionDate>
             <UnorderedList>
-              <SubsectionList>CS2100, Computer Organization</SubsectionList>
+              <SubsectionList>CS2100, Computer Organization (A)</SubsectionList>
               <SubsectionList>
-                CS2101, Effective Communication for Computing Professionals
+                CS2101, Effective Communication for Computing Professionals (S)
               </SubsectionList>
-              <SubsectionList>CS2102, Database System</SubsectionList>
-              <SubsectionList>CS2103T, Software Engineering</SubsectionList>
-              <SubsectionList>MA3205, Set Theory</SubsectionList>
-              <SubsectionList>ST2131, Probability</SubsectionList>
+              <SubsectionList>CS2102, Database System (A-)</SubsectionList>
+              <SubsectionList>CS2103T, Software Engineering (A)</SubsectionList>
+              <SubsectionList>MA3205, Set Theory (A)</SubsectionList>
+              <SubsectionList>ST2131, Probability (A)</SubsectionList>
               <SubsectionList>
                 CP2106, Independent Software Development project (CS)
               </SubsectionList>
+            </UnorderedList>
+          </SubsectionContainer>
+        </SectionContainer>
+      </div>
+
+      <div ref={fourthSemRef}>
+        <SectionContainer>
+          <SectionTitle>Fourth Semester Module</SectionTitle>
+          <SubsectionContainer>
+            <SubsectionDesc>This list is a plan only (still subject to change)</SubsectionDesc>
+            <UnorderedList>
+              <SubsectionList>CS2109S, Introduction to AI and Machine Learning</SubsectionList>
+              <SubsectionList>CS3230, Design and Analysis of Algorithms</SubsectionList>
+              <SubsectionList>CS3233, Competitive Programming</SubsectionList>
+              <SubsectionList>CS3236, Introduction to Information Theory</SubsectionList>
+              <SubsectionList>MA2104, Multivariable Calculus</SubsectionList>
+              <SubsectionList>MA3252, Linear and Network Optimization</SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>

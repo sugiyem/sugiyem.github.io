@@ -144,7 +144,7 @@ const Modules: React.FC = () => {
 
       <div ref={thirdSemRef}>
         <SectionContainer>
-          <SectionTitle>Third Semester Module</SectionTitle>
+          <SectionTitle>Third Semester Modules</SectionTitle>
           <SubsectionContainer>
             <SubsectionDesc>SAP: 4.9/5.0</SubsectionDesc>
             <SubsectionDate>August - December 2022</SubsectionDate>
@@ -167,16 +167,16 @@ const Modules: React.FC = () => {
 
       <div ref={fourthSemRef}>
         <SectionContainer>
-          <SectionTitle>Fourth Semester Module</SectionTitle>
+          <SectionTitle>Fourth Semester Modules</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDesc>This list is a plan only (still subject to change)</SubsectionDesc>
             <UnorderedList>
               <SubsectionList>CS2109S, Introduction to AI and Machine Learning</SubsectionList>
               <SubsectionList>CS3230, Design and Analysis of Algorithms</SubsectionList>
               <SubsectionList>CS3233, Competitive Programming</SubsectionList>
               <SubsectionList>CS3236, Introduction to Information Theory</SubsectionList>
-              <SubsectionList>MA2104, Multivariable Calculus</SubsectionList>
+              <SubsectionList>MA2202, Algebra I</SubsectionList>
               <SubsectionList>MA3252, Linear and Network Optimization</SubsectionList>
+              <SubsectionList>DSA2102, Numerical Computation</SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>

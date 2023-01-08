@@ -22,10 +22,10 @@ const Experiences = React.forwardRef<null | HTMLDivElement>((props, ref) => {
           <SubsectionDesc>
             Conduct weekly tutorial and mark students' assignment
           </SubsectionDesc>
-          <SubsectionDate>August 2022 - Present</SubsectionDate>
+          <SubsectionDate>August - November 2022</SubsectionDate>
           <UnorderedList>
             <SubsectionList>
-              Current Teaching: CS1101S (Programming Methodology)
+              Past Teaching: CS1101S (Programming Methodology)
             </SubsectionList>
           </UnorderedList>
         </SubsectionContainer>

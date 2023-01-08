@@ -16,7 +16,7 @@ const Achievements = React.forwardRef<null | HTMLDivElement>((props, ref) => {
         <SubsectionContainer>
           <SubsectionTitle>2022</SubsectionTitle>
           <UnorderedList>
-            <SubsectionList>Dean's List (AY 21/22 Semester 2)</SubsectionList>
+            <SubsectionList>Dean's List (AY 21/22 Semester 2 + AY 22/23 Semester 1)</SubsectionList>
             <SubsectionList>
               Top Students for CS2040S (Data Structures and Algorithms)
             </SubsectionList>

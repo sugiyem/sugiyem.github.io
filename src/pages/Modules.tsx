@@ -157,9 +157,6 @@ const Modules: React.FC = () => {
               <SubsectionList>CS2103T, Software Engineering (A)</SubsectionList>
               <SubsectionList>MA3205, Set Theory (A)</SubsectionList>
               <SubsectionList>ST2131, Probability (A)</SubsectionList>
-              <SubsectionList>
-                CP2106, Independent Software Development project (CS)
-              </SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>
@@ -169,14 +166,16 @@ const Modules: React.FC = () => {
         <SectionContainer>
           <SectionTitle>Fourth Semester Modules</SectionTitle>
           <SubsectionContainer>
+            <SubsectionDesc>SAP: 4.86/5.0</SubsectionDesc>
+            <SubsectionDate>January - May 2023</SubsectionDate>
             <UnorderedList>
-              <SubsectionList>CS2109S, Introduction to AI and Machine Learning</SubsectionList>
-              <SubsectionList>CS3230, Design and Analysis of Algorithms</SubsectionList>
-              <SubsectionList>CS3233, Competitive Programming</SubsectionList>
-              <SubsectionList>CS3236, Introduction to Information Theory</SubsectionList>
-              <SubsectionList>MA2202, Algebra I</SubsectionList>
-              <SubsectionList>MA3252, Linear and Network Optimization</SubsectionList>
-              <SubsectionList>DSA2102, Numerical Computation</SubsectionList>
+              <SubsectionList>CS2109S, Introduction to AI and Machine Learning (A-)</SubsectionList>
+              <SubsectionList>CS3230, Design and Analysis of Algorithms (A+)</SubsectionList>
+              <SubsectionList>CS3233, Competitive Programming (A)</SubsectionList>
+              <SubsectionList>CS3236, Introduction to Information Theory (A)</SubsectionList>
+              <SubsectionList>MA2202, Algebra I (A+)</SubsectionList>
+              <SubsectionList>MA3252, Linear and Network Optimization (A-)</SubsectionList>
+              <SubsectionList>DSA2102, Numerical Analysis (A+)</SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>

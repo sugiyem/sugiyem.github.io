@@ -26,7 +26,7 @@ const Education = React.forwardRef<null | HTMLDivElement>((props, ref) => {
             <SubsectionList>
               ASEAN Undergraduate Scholarship Holder
             </SubsectionList>
-            <SubsectionList>Current CAP: 4.96/5.0</SubsectionList>
+            <SubsectionList>Current CAP: 4.93/5.0</SubsectionList>
             <SubsectionList>
               {"See the list of modules taken "}
               <Link
@@ -37,15 +37,6 @@ const Education = React.forwardRef<null | HTMLDivElement>((props, ref) => {
               >
                 here
               </Link>
-            </SubsectionList>
-          </UnorderedList>
-        </SubsectionContainer>
-        <SubsectionContainer>
-          <SubsectionTitle>Kharisma Bangsa Senior High School, Indonesia</SubsectionTitle>
-          <SubsectionDesc>High School Diploma, Natural Sciences</SubsectionDesc>
-          <UnorderedList>
-            <SubsectionList>
-              Awarded full scholarship for achievements in mathematics olympiad
             </SubsectionList>
           </UnorderedList>
         </SubsectionContainer>

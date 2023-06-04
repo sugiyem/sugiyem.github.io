@@ -17,6 +17,15 @@ const Experiences = React.forwardRef<null | HTMLDivElement>((props, ref) => {
         <SectionTitle>Experiences</SectionTitle>
         <SubsectionContainer>
           <SubsectionTitle>
+            Applied Cryptography Intern at Huawei
+          </SubsectionTitle>
+          <SubsectionDesc>
+          Analyze and improve on attacks against the RSA Cryptosystem, along with their application to the security of end-to-end encrypted cloud storage service. 
+          </SubsectionDesc>
+          <SubsectionDate>May 2023 - Now</SubsectionDate>
+        </SubsectionContainer>
+        <SubsectionContainer>
+          <SubsectionTitle>
             Teaching Assistant at National University of Singapore
           </SubsectionTitle>
           <SubsectionDesc>

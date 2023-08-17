@@ -15,13 +15,13 @@ const Skills = React.forwardRef<null | HTMLDivElement>((props, ref) => {
         <SectionTitle>Skills</SectionTitle>
         <SubsectionContainer>
           <SubsectionTitle> Programming Languages</SubsectionTitle>
-          <Text> Java, C++, Python, JavaScript, TypeScript, SQL</Text>
+          <Text> C++, Java, Python, JavaScript, TypeScript, SQL</Text>
         </SubsectionContainer>
         <SubsectionContainer>
           <SubsectionTitle> Software & Frameworks </SubsectionTitle>
           <Text>
             {" "}
-            Git, GitHub, ReactJS, ReactNative, Jest, PostgreSQL, Flask, Firebase, JUnit
+            Git, GitHub, PostgreSQL, PyTorch, ReactJS, ReactNative, Jest, JUnit
           </Text>
         </SubsectionContainer>
       </SectionContainer>

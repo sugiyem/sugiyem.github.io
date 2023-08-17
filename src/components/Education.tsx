@@ -26,9 +26,10 @@ const Education = React.forwardRef<null | HTMLDivElement>((props, ref) => {
             <SubsectionList>
               ASEAN Undergraduate Scholarship Holder
             </SubsectionList>
-            <SubsectionList>Current CAP: 4.93/5.0</SubsectionList>
+            <SubsectionList>Current GPA: 4.93/5.0</SubsectionList>
+            <SubsectionList>Tentative Focus Areas: Algorithms & Theory, Artificial Intelligence, Parallel Computing</SubsectionList>
             <SubsectionList>
-              {"See the list of modules taken "}
+              {"See the list of courses taken "}
               <Link
                 as={RouterLink}
                 to="/modules"

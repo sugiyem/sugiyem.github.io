@@ -25,6 +25,7 @@ const Modules: React.FC = () => {
   const secondSemRef = React.useRef<null | HTMLDivElement>(null);
   const thirdSemRef = React.useRef<null | HTMLDivElement>(null);
   const fourthSemRef = React.useRef<null | HTMLDivElement>(null);
+  const fifthSemRef = React.useRef<null | HTMLDivElement>(null);
 
   const [isDrawerOpen, setIsDrawerOpen] = React.useState<boolean>(false);
 
@@ -56,6 +57,9 @@ const Modules: React.FC = () => {
       <Button onClick = {() => goToSelectedRef(fourthSemRef)}>
         Fourth Semester
       </Button>
+      <Button onClick={() => goToSelectedRef(fifthSemRef)}>
+        Fifth Semester
+      </Button>
     </Stack>
   );
 
@@ -82,16 +86,16 @@ const Modules: React.FC = () => {
       <CustomDrawer />
 
       <Main
-        title="NUS Modules"
-        description="This is the lists of all modules that I've taken, 
+        title="NUS Courses"
+        description="This is the lists of all courses that I've taken, 
                     or currently taking at the National University of Singapore (NUS)"
       />
 
       <div ref={firstSemRef}>
         <SectionContainer>
-          <SectionTitle>First Semester Modules</SectionTitle>
+          <SectionTitle>First Semester Courses</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDesc>SAP: 5.0/5.0</SubsectionDesc>
+            <SubsectionDesc>Semester GPA: 5.0/5.0</SubsectionDesc>
             <SubsectionDate>August - December 2021</SubsectionDate>
             <UnorderedList>
               <SubsectionList>
@@ -113,9 +117,9 @@ const Modules: React.FC = () => {
 
       <div ref={secondSemRef}>
         <SectionContainer>
-          <SectionTitle>Second Semester Modules</SectionTitle>
+          <SectionTitle>Second Semester Courses</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDesc>SAP: 5.0/5.0</SubsectionDesc>
+            <SubsectionDesc>Semester GPA: 5.0/5.0</SubsectionDesc>
             <SubsectionDate>January - May 2022</SubsectionDate>
             <UnorderedList>
               <SubsectionList>
@@ -144,9 +148,9 @@ const Modules: React.FC = () => {
 
       <div ref={thirdSemRef}>
         <SectionContainer>
-          <SectionTitle>Third Semester Modules</SectionTitle>
+          <SectionTitle>Third Semester Courses</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDesc>SAP: 4.9/5.0</SubsectionDesc>
+            <SubsectionDesc>Semester GPA: 4.9/5.0</SubsectionDesc>
             <SubsectionDate>August - December 2022</SubsectionDate>
             <UnorderedList>
               <SubsectionList>CS2100, Computer Organization (A)</SubsectionList>
@@ -164,9 +168,9 @@ const Modules: React.FC = () => {
 
       <div ref={fourthSemRef}>
         <SectionContainer>
-          <SectionTitle>Fourth Semester Modules</SectionTitle>
+          <SectionTitle>Fourth Semester Courses</SectionTitle>
           <SubsectionContainer>
-            <SubsectionDesc>SAP: 4.86/5.0</SubsectionDesc>
+            <SubsectionDesc>Semester GPA: 4.86/5.0</SubsectionDesc>
             <SubsectionDate>January - May 2023</SubsectionDate>
             <UnorderedList>
               <SubsectionList>CS2109S, Introduction to AI and Machine Learning (A-)</SubsectionList>
@@ -176,6 +180,25 @@ const Modules: React.FC = () => {
               <SubsectionList>MA2202, Algebra I (A+)</SubsectionList>
               <SubsectionList>MA3252, Linear and Network Optimization (A-)</SubsectionList>
               <SubsectionList>DSA2102, Numerical Analysis (A+)</SubsectionList>
+            </UnorderedList>
+          </SubsectionContainer>
+        </SectionContainer>
+      </div>
+
+      <div ref={fifthSemRef}>
+        <SectionContainer>
+          <SectionTitle>Fifth Semester Courses</SectionTitle>
+          <SubsectionContainer>
+            <SubsectionDesc>August 2023 - Now</SubsectionDesc>
+            <UnorderedList>
+              <SubsectionList>CS2106, Introduction to Operating Systems</SubsectionList>
+              <SubsectionList>CS3210, Parallel Computing</SubsectionList>
+              <SubsectionList>CS3264, Foundation of Machine Learning</SubsectionList>
+              <SubsectionList>CS4261, Algorithmic Mechanism Design</SubsectionList>
+              <SubsectionList>MA2104, Multivariable Calculus</SubsectionList>
+              <SubsectionList>MA3238, Stochastic Processes I</SubsectionList>
+              <SubsectionList>MA4268, Mathematics for Visual Data Processing</SubsectionList>
+              <SubsectionList>ST2132, Mathematical Statistics</SubsectionList>
             </UnorderedList>
           </SubsectionContainer>
         </SectionContainer>

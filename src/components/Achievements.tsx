@@ -14,6 +14,12 @@ const Achievements = React.forwardRef<null | HTMLDivElement>((props, ref) => {
       <SectionContainer>
         <SectionTitle>Achievements</SectionTitle>
         <SubsectionContainer>
+          <SubsectionTitle>2023</SubsectionTitle>
+          <UnorderedList>
+            <SubsectionList>Dean's List (AY 22/23 Semester 2)</SubsectionList>
+          </UnorderedList>
+        </SubsectionContainer>
+        <SubsectionContainer>
           <SubsectionTitle>2022</SubsectionTitle>
           <UnorderedList>
             <SubsectionList>Dean's List (AY 21/22 Semester 2 + AY 22/23 Semester 1)</SubsectionList>

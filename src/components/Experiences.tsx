@@ -16,23 +16,26 @@ const Experiences = React.forwardRef<null | HTMLDivElement>((props, ref) => {
       <SectionContainer>
         <SectionTitle>Experiences</SectionTitle>
         <SubsectionContainer>
-          <SubsectionTitle>
-            Applied Cryptography Intern at Huawei
-          </SubsectionTitle>
-          <SubsectionDesc>
-          Analyze and improve on attacks against the RSA Cryptosystem, along with their application to the security of end-to-end encrypted cloud storage service. 
-          </SubsectionDesc>
-          <SubsectionDate>May 2023 - Now</SubsectionDate>
+          <SubsectionTitle>Applied Cryptography Intern</SubsectionTitle>
+          <SubsectionDesc>Huawei</SubsectionDesc>
+          <SubsectionDate>May - July 2023</SubsectionDate>
+          <UnorderedList>
+            <SubsectionList>
+              Analyzed multiple attacks against RSA cryptosystem with their application to the security of E2EE online storage provider, and researched on remaining vulnerability of the cloud service.
+            </SubsectionList>
+            <SubsectionList>
+              Examined the hybrid key exchange proposal of IKEv2 & TLS 1.3 protocols, and investigated the pros & cons of various key combiner algorithms.
+            </SubsectionList>
+          </UnorderedList>
         </SubsectionContainer>
         <SubsectionContainer>
-          <SubsectionTitle>
-            Teaching Assistant at National University of Singapore
-          </SubsectionTitle>
-          <SubsectionDesc>
-            Conduct weekly tutorial and mark students' assignment
-          </SubsectionDesc>
+          <SubsectionTitle>Undergraduate Teaching Assistant</SubsectionTitle>
+          <SubsectionDesc>National University of Singapore</SubsectionDesc>
           <SubsectionDate>August - November 2022</SubsectionDate>
           <UnorderedList>
+            <SubsectionList>
+              Conducted weekly tutorial and graded students' assignment.
+            </SubsectionList>
             <SubsectionList>
               Past Teaching: CS1101S (Programming Methodology)
             </SubsectionList>

@@ -2,6 +2,7 @@ import React from "react";
 import Achievements from "../components/Achievements";
 import Education from "../components/Education";
 import Experiences from "../components/Experiences";
+import Extracurriculars from "../components/Extracurriculars";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
   const projectRef = React.useRef<null | HTMLDivElement>(null);
   const skillRef = React.useRef<null | HTMLDivElement>(null);
   const achievementRef = React.useRef<null | HTMLDivElement>(null);
+  const extracurricularRef = React.useRef<null | HTMLDivElement>(null);
   const contactRef = React.useRef<null | HTMLDivElement>(null);
 
   const [isDrawerOpen, setIsDrawerOpen] = React.useState<boolean>(false);
@@ -52,6 +54,9 @@ const Home: React.FC = () => {
       <Button onClick={() => goToSelectedRef(skillRef)}>Skills</Button>
       <Button onClick={() => goToSelectedRef(achievementRef)}>
         Achievements
+      </Button>
+      <Button onClick={() => goToSelectedRef(extracurricularRef)}>
+        Extracurriculars
       </Button>
       <Button onClick={() => goToSelectedRef(contactRef)}>Contact</Button>
     </Stack>
@@ -82,7 +87,7 @@ const Home: React.FC = () => {
       <Divider />
       <Main
         title="Farrel Dwireswara Salim's Portfolio"
-        description="Year 2 National University of Singapore undergraduate, 
+        description="Year 3 National University of Singapore undergraduate, 
               studying Computer Science along with a second major in Mathematics"
       />
       <Education ref={educationRef} />
@@ -90,6 +95,7 @@ const Home: React.FC = () => {
       <Projects ref={projectRef} />
       <Skills ref={skillRef} />
       <Achievements ref={achievementRef} />
+      <Extracurriculars ref={extracurricularRef} />
       <Contact ref={contactRef} />
     </div>
   );
